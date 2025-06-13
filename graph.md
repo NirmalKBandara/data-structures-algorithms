@@ -1,5 +1,5 @@
 ---
-title : "Graphs"
+Graphs
 ---
 
 ## Graph Terminologies and Fundamentals
