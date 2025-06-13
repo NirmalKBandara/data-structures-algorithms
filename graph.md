@@ -1,5 +1,5 @@
 ---
-# Graphs
+title : "Graphs"
 ---
 
 ## Graph Terminologies and Fundamentals
@@ -98,7 +98,7 @@ Space-efficient representation using arrays of linked lists.
 - More complex implementation
 
 <details>
-<summary><strong>Click to view Adjacency List C++ Implementation</strong></summary>
+<summary><strong>Adjacency List C++ Implementation</strong></summary>
 
 ```cpp
 #include <iostream>
@@ -171,7 +171,7 @@ public:
 - Slow neighbor iteration: O(V)
 
 <details>
-<summary><strong>Click to view Adjacency Matrix C++ Implementation</strong></summary>
+<summary><strong>Adjacency Matrix C++ Implementation</strong></summary>
 
 ```cpp
 #include <iostream>
@@ -273,7 +273,7 @@ After BFS completion:
 - Tree structure: |Eπ| = |Vπ| - 1
 
 <details>
-<summary><strong>Click to view BFS Algorithm C++ Implementation</strong></summary>
+<summary><strong>BFS Algorithm C++ Implementation</strong></summary>
 
 ```cpp
 #include <iostream>
@@ -429,7 +429,7 @@ int main() {
 - Forest structure: |Eπ| ≤ |V| - k (where k = number of components)
 
 <details>
-<summary><strong>Click to view DFS Algorithm C++ Implementation (Both Iterative and Recursive)</strong></summary>
+<summary><strong>DFS Algorithm C++ Implementation (Both Iterative and Recursive)</strong></summary>
 
 ```cpp
 #include <iostream>
@@ -647,7 +647,7 @@ int main() {
 
 
 <details>
-<summary><strong>Click to view Kruskal's MST Algorithm C++ Implementation (with Union-Find)</strong></summary>
+<summary><strong>Kruskal's MST Algorithm C++ Implementation (with Union-Find)</strong></summary>
 
 ```cpp
 #include <iostream>
@@ -832,7 +832,7 @@ int main() {
 - Can find MST incrementally
 
 <details>
-<summary><strong>Click to view Prim's MST Algorithm C++ Implementation (with Priority Queue)</strong></summary>
+<summary><strong>Prim's MST Algorithm C++ Implementation (with Priority Queue)</strong></summary>
 
 ```cpp
 #include <iostream>
@@ -1028,7 +1028,7 @@ if distance[u] + weight(u,v) < distance[v]:
 - Therefore, V-1 iterations guarantee correct shortest distances
 
 <details>
-<summary><strong>Click to view Bellman-Ford SSSP Algorithm C++ Implementation</strong></summary>
+<summary><strong>Bellman-Ford SSSP Algorithm C++ Implementation</strong></summary>
 
 ```cpp
 #include <iostream>
@@ -1229,7 +1229,7 @@ Dijkstra's greedy choice assumes that once a vertex is processed (added to the s
 - **Early termination**: Stop when target vertex is reached
 
 <details>
-<summary><strong>Click to view Dijkstra's SSSP Algorithm C++ Implementation</strong></summary>
+<summary><strong>Dijkstra's SSSP Algorithm C++ Implementation</strong></summary>
 
 ```cpp
 #include <iostream>
